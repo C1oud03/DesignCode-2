@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		70148D212605E53100A98B9A /* CoursesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70148D202605E53100A98B9A /* CoursesView.swift */; };
 		70DCDEFA260214CD00E519CA /* DesignCode_2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DCDEF9260214CD00E519CA /* DesignCode_2App.swift */; };
 		70DCDEFC260214CD00E519CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DCDEFB260214CD00E519CA /* ContentView.swift */; };
 		70DCDEFE260214CD00E519CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70DCDEFD260214CD00E519CA /* Assets.xcassets */; };
 		70DCDF01260214CD00E519CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70DCDF00260214CD00E519CA /* Preview Assets.xcassets */; };
+		70DCDF0A26021A6E00E519CA /* CourseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DCDF0926021A6E00E519CA /* CourseRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		70148D202605E53100A98B9A /* CoursesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesView.swift; sourceTree = "<group>"; };
 		70DCDEF6260214CD00E519CA /* DesignCode 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DesignCode 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70DCDEF9260214CD00E519CA /* DesignCode_2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCode_2App.swift; sourceTree = "<group>"; };
 		70DCDEFB260214CD00E519CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		70DCDEFD260214CD00E519CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70DCDF00260214CD00E519CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		70DCDF02260214CD00E519CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70DCDF0926021A6E00E519CA /* CourseRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				70DCDEF9260214CD00E519CA /* DesignCode_2App.swift */,
 				70DCDEFB260214CD00E519CA /* ContentView.swift */,
+				70DCDF0926021A6E00E519CA /* CourseRow.swift */,
+				70148D202605E53100A98B9A /* CoursesView.swift */,
 				70DCDEFD260214CD00E519CA /* Assets.xcassets */,
 				70DCDF02260214CD00E519CA /* Info.plist */,
 				70DCDEFF260214CD00E519CA /* Preview Content */,
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				70DCDEFC260214CD00E519CA /* ContentView.swift in Sources */,
+				70DCDF0A26021A6E00E519CA /* CourseRow.swift in Sources */,
 				70DCDEFA260214CD00E519CA /* DesignCode_2App.swift in Sources */,
+				70148D212605E53100A98B9A /* CoursesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
